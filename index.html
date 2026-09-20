@@ -1,19 +1,10 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0f5b4f">
-  <meta name="description" content="Construction Digital Hub — simple access to support, apps and digital training.">
-  <title>Construction Digital Hub</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <main id="app" class="app-shell"></main>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="app.js"></script>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17324D"><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css">
+<title>Digital Construction Hub</title></head>
+<body><div id="app">
+<header class="top"><button class="brand" onclick="go('home')"><b>D</b><span><strong>Digital Hub</strong><small>Project digital services</small></span></button><button class="home" onclick="go('home')">⌂</button></header>
+<main id="view"></main>
+<nav><button onclick="go('home')">⌂<small>Home</small></button><button onclick="go('systems')">▦<small>Systems</small></button><button onclick="go('training')">▶<small>Training</small></button><button onclick="go('help')">?<small>Help</small></button></nav>
+</div><script src="app.js"></script></body></html>
